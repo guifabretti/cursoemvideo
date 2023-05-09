@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(177, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+
+    background-color: white;
+    border-radius: 5px;
+
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin: 10px;
+}
+
+nav{
+    background-color: rgb(78, 78, 78);
+    padding: 3px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.301);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+article{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.39);
+}
+
+article > aside{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+aside > p> a{
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+
+#assuntos{
+    text-align: center;
+}
+
+#assuntos > p > a{
+    padding: 10px;
+    color: black;
+}
+#assuntos > p > a:hover{
+    padding: 10px;
+    background-color: lightgray;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(/desafios/d013/imagens/fundo-madeira.jpg) no-repeat top center;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: url(/desafios/d013/imagens/frame-iphone.png) no-repeat;
+}   
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+    border-radius: 5px;
+}
+
+#redes-sociais{
+    padding-top: 25vh;
+    padding-left: 3vw;
+}
+
+#redes-sociais > a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.445);
+    transition-duration: 0.4s;
+}
+
+#redes-sociais > a > img:hover{
+    border: 2px solid white;
+    transform: translate(5px, -5px);
+    transition-duration: 0.4s;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.342);
+}
