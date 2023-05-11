@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaquiry.css">
+</head>
+<body>
+    <main>
+        <section id="tudao">
+            <div id="caixa_imagem">
+
+            </div>
+
+            <div id="login">
+                <h1>Login</h1>
+                <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <p id="caixa_email">
+                        <label for="iemail"><i class="material-icons">person</i></label>
+                        <input type="text" name="email" id="iemail" required placeholder="Seu email">
+                    </p>
+                    <p id="caixa_senha">
+                        <label for="isenha"><i class="material-icons">key</i></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha">
+                    </p>
+                    <p class="botoes">
+                        <input id="entrar" type="submit" value="Entrar">
+                        <input id="esqueci_senha" type="button" value="Esqueci minha senha">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

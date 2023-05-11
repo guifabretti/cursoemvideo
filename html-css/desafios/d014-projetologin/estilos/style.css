@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1: #e9dcc2;
+    --cor2: #043200;
+    --cor3: #61945c;
+    --cor4: #82b37d;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(to top, var(--cor2), var(--cor1)); */
+    background-color: var(--cor2);
+}
+
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#tudao{
+    width: 250px;
+    height: 515px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.253);
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
+}
+
+#caixa_imagem{
+    display: block;
+    background: url(../imagens/pexels-zhang-kaiyv-1237103.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#login{
+    padding: 5px;
+}
+
+#login h1{
+    text-align: center;
+}
+
+#texto{
+    font-size: 0.8em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#caixa_email{
+    background-color: var(--cor3);
+    border-radius: 10px;
+    width: 240px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#caixa_senha{
+    background-color: var(--cor3);
+    border-radius: 10px;
+    width: 240px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#iemail{
+    align-items: center;
+    width: 190px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    height: 35px;
+    border: none;
+    background-color: var(--cor1);
+    color: black;
+}
+
+/* #iemail:{
+    background-color: white;
+} */
+
+#isenha{
+    align-items: center;
+    width: 190px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    height: 35px;
+    border: none;
+    background-color: var(--cor1);
+    color: black;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.material-icons{
+    color: white;
+    font-size: 30px;
+    padding-top: 4px;
+}
+
+.botoes input{
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+#entrar{
+    width: 240px;
+    background-color: var(--cor3);
+    color: white;
+}
+#esqueci_senha{
+    width: 240px;
+    background-color: white;
+    color: black;
+    border: 1px solid var(--cor3);
+}
+
+#entrar:hover{
+    width: 240px;
+    background-color: var(--cor2);
+    color: white;
+    transition-duration: 0.3s;
+}
+#esqueci_senha:hover{
+    width: 240px;
+    background-color: var(--cor4);
+    color: white;
+    border: 1px solid var(--cor3);
+    transition-duration: 0.3s;
+}
