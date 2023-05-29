@@ -11,7 +11,7 @@ html, body{
     width: 100vw;
     background-size: cover;
     background-attachment: fixed;
-    background: url(/desafios/d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
 }
 
 main{
@@ -27,7 +27,7 @@ main{
 
     height: 627px;
     width: 311px;
-    background: url(/desafios/d013/imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }   
 
 #tela{
